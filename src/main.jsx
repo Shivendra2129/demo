@@ -7,12 +7,16 @@ import { TodoProvider } from './context/Todocontext.jsx'
 import { TodoContext } from './context/Todocontext.jsx'
 import Shared1 from './Shared1.jsx'
 import Shared2 from './Shared2.jsx'
+import GetTodo from './GetTodos.jsx'
 
 createRoot(document.getElementById('root')).render(
+
   
     <TodoProvider>
       <Shared1/>
       <Shared2/>
+      <GetTodo/>
     </TodoProvider>
+
   
 )
